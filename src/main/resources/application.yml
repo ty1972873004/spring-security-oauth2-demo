@@ -1,0 +1,16 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: oauth2-demo
+  redis:
+    host: 127.0.0.1
+    database: 0
+    port: 6379
+    #password:
+    lettuce:
+      pool:
+        max-active: 8
+        max-idle: 8
+        min-idle: 0
+
